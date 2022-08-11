@@ -25,39 +25,24 @@ markdown_extensions:
 
 
 nav:
-  - Issuer Protocol:
-    - Introduction: "getting-started/getting-started.md"
-    - Core Components:
-      - Baby Jubjub Keypair: "getting-started/babyjubjub.md"
-      - Sparse Merkle Tree: "getting-started/mt.md"
-      - Claim: 
-        - Generic Claim: "getting-started/claim/generic-claim.md"
-        - Auth Claim: "getting-started/claim/auth-claim.md"
-        - Claim Schema: "getting-started/claim/claim-schema.md"
-      - Identity: 
-        - Identity Structure: "getting-started/identity/identity-structure.md"
-        - Identity State: "getting-started/identity/identity-state.md"
-        - Identifier: "getting-started/identity/identifier.md"
-    - Issue Claim: 
-      - Overview: "getting-started/issue-claim-overview.md"
-      - via Signature: "getting-started/signature-claim/signature.md"
-      - via Merkle Tree: 
-        - Intro to State Transition: "getting-started/state-transition/state-transition.md"
-        - Add Claim to the Claims Tree: "getting-started/state-transition/new-identity-state.md"
-        - Generate Proof for State Transition: "getting-started/state-transition/state-transition-proof.md"
-        - Verify the Proof On-Chain: "getting-started/state-transition/on-chain-state-transition.md"
-  - Verifier Intergration: 
-    - Introduction: "verify-with-zkp-application-level/intro.md"
-    - ZK login workflow: "verify-with-zkp-application-level/zk-login-workflow.md"
-    - ZK login integration: "verify-with-zkp-application-level/zk-login-integration.md"
-    - Demo: "verify-with-zkp-application-level/demo.md"
-    - JWZ: "verify-with-zkp-application-level/jwz.md"
-    - Query: "verify-with-zkp-application-level/query-language.md"
-  - Circuits:
-    - Main Circuits: "circuits/main-circuits.md"
-    - Template Circuits: "circuits/template-circuits.md"
-  - Contracts: 
-    - Overview: "contracts/overview.md"
+  - Introduction:
+    - What is Polygon ID: "intro/what-is-PID.md"
+    - Key concepts: 
+      - Decentralized Identifier (DID): "intro/key-concepts/did.md"
+      - Verifiable Credentials (VCs) : "intro/key-concepts/vc.md"
+      - Query Language: "intro/key-concepts/query-language.md"
+      - JWZ: "intro/key-concepts/jwz.md" 
+    - Solution Architectures: "intro/architectures.md" 
+    - Getting Started: "intro/getting-started.md"
+  - PID Services: 
+    - Introduction: "PID-services/services-intro.md"
+  - Identity SDK: 
+    - Issuer SDK: "PID-identity-sdk/issuer-sdk/issuer-sdk-intro.md"
+    - Verifier SDK: "PID-identity-sdk/verifier-sdk/verifier-sdk-intro.md"
+    - Tutorial: "PID-identity-sdk/tutorial/dao-proof-of-personhood.md"
+  - Wallet SDK: 
+    - Introduction: "PID-wallet-sdk/wallet-sdk-intro.md"
+
 
 
 # If you declare plugins, you need to declare all of them, 
