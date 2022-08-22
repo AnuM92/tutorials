@@ -28,20 +28,22 @@ nav:
   - Introduction:
     - What is Polygon ID: "intro/what-is-PID.md"
     - Key concepts: 
-      - Decentralized Identifier (DID): "intro/key-concepts/did.md"
-      - Verifiable Credentials (VCs) : "intro/key-concepts/vc.md"
-      - Query Language: "intro/key-concepts/query-language.md"
-      - JWZ: "intro/key-concepts/jwz.md" 
+      - Issuer: "intro/key-concepts/issuer.md"
+      - Verifier : "intro/key-concepts/verifier.md"
+      - Wallet: "intro/key-concepts/wallet.md"
     - Solution Architectures: "intro/architectures.md" 
-    - Getting Started: "intro/getting-started.md"
-  - PID Services: 
-    - Introduction: "PID-services/services-intro.md"
-  - Identity SDK: 
-    - Issuer SDK: "PID-identity-sdk/issuer-sdk/issuer-sdk-intro.md"
-    - Verifier SDK: "PID-identity-sdk/verifier-sdk/verifier-sdk-intro.md"
-    - Tutorial: "PID-identity-sdk/tutorial/dao-proof-of-personhood.md"
-  - Wallet SDK: 
-    - Introduction: "PID-wallet-sdk/wallet-sdk-intro.md"
+    - Use cases: "intro/use-cases.md"
+  - Issuer: 
+    - Issuer SDK: "issuer/issuer-sdk/issuer-sdk-intro.md"
+  - Verifier:
+    - Verifer SDK:
+      - Intro: "verifier/verifier-sdk/verifier-sdk-intro.md"
+      - Zk Login Workflow: "verifier/verifier-sdk/zk-login-workflow.md"
+      - Zk Login Integration: "verifier/verifier-sdk/zk-login-integration.md"
+      - Demo: "verifier/verifier-sdk/demo.md"
+  - Wallet:
+    - Wallet SDK: "wallet/wallet-sdk/wallet-sdk-intro.md"
+  - Glossary: "glossary/glossary.md"
 
 
 
