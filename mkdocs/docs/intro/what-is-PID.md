@@ -11,7 +11,7 @@ Polygon ID platform is based on several building blocks that are inherenet to it
 - Verifiable Credential(VC)
 - Identity Holder, Issure, and Verifier (together they form a triangle of trust so that the communication between the three players is seamless)
 - Decentralized Identity (DID)
--Digital Wallet
+- Digital Wallet
 
 Let us go through these one by one in the sections to come.
 
